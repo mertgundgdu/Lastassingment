@@ -64,7 +64,7 @@ namespace Jean_Luc_Picard_s_journal_
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine("Failed to write to my space journal. It said {0}", e.Message);
+                       Console.WriteLine("Failed to write to journal. It said {0}", e.Message);
                     }
                 }
             }
